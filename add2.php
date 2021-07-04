@@ -47,7 +47,7 @@ die('Error: Could not connect: ' . pg_last_error());
  </tr>
 
  <tr>
- <td colspan="2" align="center"><input type="submit" id="button" name="submit" value="Add" style="font-size:15px;"></td>
+ <td colspan="2" align="center"><input type="submit" id="button" name="submit" value="Add"></td>
  </tr>
  </form>
  </table>
@@ -60,13 +60,13 @@ $pi=$_GET['productid'];
 $pn=$_GET['productname'];
 $pp=$_GET['productprice'];
 $qt=$_GET['quantityonhand'];
-$query = "INSERT INTO atnshop1 VALUES ('$pi','$pn','$pp','$qt')";
+$query = "INSERT INTO atnshop2 VALUES ('$pi','$pn','$pp','$qt')";
 $data = pg_query($pg_heroku,$query);
 if($data)
 {
 echo "<script>alert('Added Successfully!')</script>";
 ?>
-<meta http-equiv="refresh" content="0; url=https://atnshoptest1.herokuapp.com/login1.php" />
+<meta http-equiv="refresh" content="0; url=https://atnshoptest1.herokuapp.com/login2.php" />
 <?php
 }
 else
