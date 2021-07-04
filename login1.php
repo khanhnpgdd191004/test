@@ -16,9 +16,11 @@
 table, th, td {
   border: 1px solid black;
   padding: 5px;
+ 
 }
 table {
   border-spacing: 15px;
+  margin: auto;
 }
 </style>
   <table border="2">

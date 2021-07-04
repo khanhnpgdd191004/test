@@ -19,6 +19,7 @@ table, th, td {
 }
 table {
   border-spacing: 15px;
+  margin: auto;
 }
 </style>
  <table border="2">
