@@ -47,7 +47,7 @@ die('Error: Could not connect: ' . pg_last_error());
  </tr>
 
  <tr>
- <td colspan="2" align="center"><input type="submit" id="button" name="submit" value="Add"></td>
+ <td colspan="2" align="center"><input type="submit" id="button" name="submit" value="Add" style="font-size:15px;"></td>
  </tr>
  </form>
  </table>

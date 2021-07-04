@@ -31,7 +31,7 @@ table {
  <th colspan="2" align="center">Operation</th>
  </tr>
 <?php
-echo '<p> ATN Shop 2 </p>';
+echo '<p style =" text-align: center;"> <b> ATN Shop 2 </b> </p>';
 $host_heroku = "ec2-54-158-232-223.compute-1.amazonaws.com";
 $db_heroku = "devkq9p8tndv0m";
 $user_heroku = "ecfkdwhillmjlv";
